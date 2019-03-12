@@ -1,4 +1,8 @@
 ---
-- yum:
+- dnf:
     name: hatari, vim-enhanced, git
     state: latest
+- dnf: 
+    name: "*"
+    state: latest  
+
