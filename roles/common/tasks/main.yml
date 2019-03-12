@@ -1,0 +1,4 @@
+---
+- yum:
+    name: hatari, vim-enhanced, git
+    state: latest
