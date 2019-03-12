@@ -1,0 +1,4 @@
+#!/usr/bin/env ansible-playbook
+
+- import_playbook: playbooks/10_basic_packages.yml
+

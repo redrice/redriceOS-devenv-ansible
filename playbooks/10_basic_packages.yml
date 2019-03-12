@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+  - yum:
+      name: hatari, vim-enhanced, git
+      state: latest
+
